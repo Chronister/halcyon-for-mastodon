@@ -87,7 +87,7 @@
         <div class="header_center_box">
             <h1 class="header_nav_item mastodon_logo logo_box">
                 <a href="/">
-                  <img src="/assets/images/mastodon.png" alt="mastodon" />
+                  <img src="/assets/images/logo-cybre.png" alt="cybrespace" />
                 </a>
             </h1>
         </div>

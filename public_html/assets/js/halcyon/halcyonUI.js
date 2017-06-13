@@ -1022,7 +1022,7 @@ function status_template(status, class_options) {
               <div class="submit_status_label_wrap">
 
                 <span class="character_count">
-                  500
+                  512
                 </span>
 
                 <!-- Submit -->
@@ -1240,7 +1240,7 @@ function status_template(status, class_options) {
               <div class="submit_status_label_wrap">
 
                 <span class="character_count">
-                  500
+                  512
                 </span>
 
                 <!-- Submit -->
@@ -2345,12 +2345,12 @@ $(function() {
     ) {
 
       const textCount = $('#overlay_status_form textarea').val().length + $('#overlay_status_form .status_spoiler').val().length;
-      let   textLen   = ( 500 - textCount );
+      let   textLen   = ( 512 - textCount );
 
       if ( textLen <= -1 ) {
         $('#overlay_status_form .character_count').addClass('red');
         $('#overlay_status_form').addClass('ready');
-      } else if ( textLen === 500 ) {
+      } else if ( textLen === 512 ) {
         $('#overlay_status_form').addClass('ready');
       } else {
         $('#overlay_status_form .character_count').removeClass('red');
@@ -2434,7 +2434,7 @@ $(function() {
         form.reset();
         $('#overlay_status_form').removeClass('ready');
         $('#overlay_status_form .status_textarea').removeClass('disallow_select');
-        $('#overlay_status_form .character_count').html('500');
+        $('#overlay_status_form .character_count').html('512');
         $('.overlay_status .submit_status_label').removeClass('active_submit_button');
         $('.overlay_status').addClass('invisible');
         $('#js-overlay_content_wrap').removeClass('view');
@@ -2478,7 +2478,7 @@ $(function() {
               form.reset();
               $('#overlay_status_form').removeClass('ready');
               $('#overlay_status_form .status_textarea').removeClass('disallow_select');
-              $('#overlay_status_form .character_count').html('500');
+              $('#overlay_status_form .character_count').html('512');
               $('.overlay_status .submit_status_label').removeClass('active_submit_button');
               $('.overlay_status').addClass('invisible');
               $('#js-overlay_content_wrap').removeClass('view');
@@ -2531,12 +2531,12 @@ $(function() {
     ) {
 
       const textCount = $('#header_status_form textarea').val().length + $('#header_status_form .status_spoiler').val().length;
-      let   textLen   = ( 500 - textCount );
+      let   textLen   = ( 512 - textCount );
 
       if ( textLen <= -1 ) {
         $('#header_status_form .character_count').addClass('red');
         $('#header_status_form').addClass('ready');
-      } else if ( textLen === 500 ) {
+      } else if ( textLen === 512 ) {
         $('#header_status_form').addClass('ready');
       } else {
         $('#header_status_form .character_count').removeClass('red');
@@ -2631,7 +2631,7 @@ $(function() {
         form.reset();
         $('#header_status_form').removeClass('ready');
         $('#header_status_form .status_textarea').removeClass('disallow_select');
-        $('#header_status_form .character_count').html('500');
+        $('#header_status_form .character_count').html('512');
       });
 
     } else {
@@ -2671,7 +2671,7 @@ $(function() {
               form.reset();
               $('#header_status_form').removeClass('ready');
               $('#header_status_form .status_textarea').removeClass('disallow_select');
-              $('#header_status_form .character_count').html('500');
+              $('#header_status_form .character_count').html('512');
             });
 
           });
@@ -2734,12 +2734,12 @@ $(function() {
     ) {
 
       const textCount = $('#reply_status_form textarea').val().length + $('#reply_status_form .status_spoiler').val().length;
-      let   textLen   = ( 500 - textCount );
+      let   textLen   = ( 512 - textCount );
 
       if ( textLen <= -1 ) {
         $('#reply_status_form .character_count').addClass('red');
         $('#reply_status_form').addClass('ready');
-      } else if ( textLen === 500 ) {
+      } else if ( textLen === 512 ) {
         $('#reply_status_form').addClass('ready');
       } else {
         $('#reply_status_form .character_count').removeClass('red');
@@ -2824,7 +2824,7 @@ $(function() {
         form.reset();
         $('#reply_status_form').removeClass('ready');
         $('#reply_status_form .status_textarea').removeClass('disallow_select');
-        $('#reply_status_form .character_count').html('500');
+        $('#reply_status_form .character_count').html('512');
         $('.reply_status .submit_status_label').removeClass('active_submit_button');
         context_template(data, 'descendants_status').appendTo("#js-overlay_content .temporary_object .toot_detail_wrap");
         replace_emoji();
@@ -2868,7 +2868,7 @@ $(function() {
               form.reset();
               $('#reply_status_form').removeClass('ready');
               $('#reply_status_form .status_textarea').removeClass('disallow_select');
-              $('#reply_status_form .character_count').html('500');
+              $('#reply_status_form .character_count').html('512');
               $('.reply_status .submit_status_label').removeClass('active_submit_button');
               context_template(data, 'descendants_status').appendTo("#js-overlay_content .temporary_object .toot_detail_wrap");
               replace_emoji();
@@ -2947,12 +2947,12 @@ $(function() {
     ) {
 
       const textCount = $('#single_reply_status_form textarea').val().length + $('#single_reply_status_form .status_spoiler').val().length;
-      let   textLen   = ( 500 - textCount );
+      let   textLen   = ( 512 - textCount );
 
       if ( textLen <= -1 ) {
         $('#single_reply_status_form .character_count').addClass('red');
         $('#single_reply_status_form').addClass('ready');
-      } else if ( textLen === 500 ) {
+      } else if ( textLen === 512 ) {
         $('#single_reply_status_form').addClass('ready');
       } else {
         $('#single_reply_status_form .character_count').removeClass('red');
@@ -3037,7 +3037,7 @@ $(function() {
         form.reset();
         $('#single_reply_status_form').removeClass('ready');
         $('#single_reply_status_form .status_textarea').removeClass('disallow_select');
-        $('#single_reply_status_form .character_count').html('500');
+        $('#single_reply_status_form .character_count').html('512');
         $('.single_reply_status .submit_status_label').removeClass('active_submit_button');
         $('.single_reply_status').addClass('invisible');
         $('#js-overlay_content_wrap').removeClass('view');
@@ -3083,7 +3083,7 @@ $(function() {
               form.reset();
               $('#single_reply_status_form').removeClass('ready');
               $('#single_reply_status_form .status_textarea').removeClass('disallow_select');
-              $('#single_reply_status_form .character_count').html('500');
+              $('#single_reply_status_form .character_count').html('512');
               $('.single_reply_status .submit_status_label').removeClass('active_submit_button');
               $('.single_reply_status').addClass('invisible');
               $('#js-overlay_content_wrap').removeClass('view');

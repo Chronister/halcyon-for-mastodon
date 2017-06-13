@@ -79,7 +79,7 @@
         <div class="submit_status_label_wrap">
 
           <span class="character_count">
-            500
+            512
           </span>
 
           <!-- Submit -->

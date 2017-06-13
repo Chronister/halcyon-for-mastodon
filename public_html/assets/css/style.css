@@ -148,7 +148,7 @@ body {
 	min-width: 100%;
 	min-height: 100%;
 	word-wrap:break-word;
-	background-color: #F5F8FA;
+	background-color: #F8FAF5;
 }
 
 /*--------------------------------------
@@ -159,12 +159,12 @@ body {
 	width: 100%;
 	padding: 12px;
 	box-sizing: border-box;
-	background-color: #E8F4FB;
+	background-color: #E8FAE7;
 }
 
 /* ready to post */
 .status_form.ready .status_bottom .submit_status_label {
-  background-color: #A3D8FF!important;
+  background-color: #A3FFA4!important;
 	pointer-events: none;
 	cursor: default;
 }
@@ -179,11 +179,11 @@ body {
 }
 
 .status_form .status_top .status_spoiler {
-	color: #189EFC;
+	color: #11C111;
 	width: 100%;
 	height: 35px;
 	border-radius: 4px;
-	border: 1px solid #C7E7FB;
+	border: 1px solid #C6FAC6;
 	font-size: 14px;
 	padding: 8px;
 	box-sizing: border-box;
@@ -209,13 +209,13 @@ body {
 	padding: 8px;
 	border-radius: 3px;
 	box-sizing: border-box;
-	border: 1px solid #C7E7FB;
+	border: 1px solid #C6FAC6;
 	background-color: #fff;
 	overflow: hidden;
 }
 
 .status_form .status_main .status_textarea textarea {
-	color: #189EFC;
+	color: #0b840b;
 	resize: none;
 	height: 18px;
 	border: none;
@@ -243,7 +243,7 @@ body {
 	margin: 8px -8px -8px -8px;
 	padding: 8px 12px;
 	background-color: #F1F1F1;
-	border-top: 1px solid #C7E7FB;
+	border-top: 1px solid #C6FAC6;
 }
 
 .status_form .status_textarea .media_attachments_preview {
@@ -253,7 +253,7 @@ body {
 	height: 113px;
 	margin-right: 8px;
 	border-radius: 5px;
-	border: 1px solid #C7E7FB;
+	border: 1px solid #C6FAC6;
 	overflow: hidden;
 	flex: 1;
 	background-color: #fff;
@@ -317,7 +317,7 @@ body {
 
 .status_form .status_bottom .status_option_button {
 	cursor: pointer;
-	color: #43A7E5;
+	color: #34B534;
 	font-size: 21px;
 	border-radius: 3px;
 	padding: 8px 12px;
@@ -330,7 +330,7 @@ body {
 }
 
 .status_form .status_bottom .status_option_button:hover {
-	border: 1px solid #C7E7FB
+	border: 1px solid #C6FAC6
 }
 
 .status_form .status_bottom .status_option_button.active {
@@ -347,7 +347,7 @@ body {
 	color: #E8F4FB;
 	border-radius: 3px;
 	box-sizing: border-box;
-	background-color: #43A7E5;
+	background-color: #34B534;
 	text-align: center;
 }
 
@@ -407,7 +407,7 @@ body {
 }
 
 .status_form .status_bottom .status_privacy .expand_privacy_menu .status_privacy:hover {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .status_form .status_bottom .status_privacy .expand_privacy_menu .status_privacy i {
@@ -436,7 +436,7 @@ body {
 	float: right;
 	border-radius: 4px;
 	color: #fff;
-	background-color: #2588D0;
+	background-color: #19AA1c;
 	transition: 0.15s ease-out;
 	box-sizing: border-box;
 	display: flex;
@@ -445,7 +445,7 @@ body {
 }
 
 .status_form .status_bottom .submit_status_label:hover {
-	background-color: #2571D0;
+	background-color: #139616;
 	transition: 0.15s ease-out;
 }
 
@@ -677,7 +677,7 @@ body {
 	padding: 6px 13px;
 	margin-top: 4px;
 	border-radius: 4px;
-	border: 1px solid #189EFC;
+	border: 1px solid #11C111;
 }
 
 /* Base */
@@ -691,14 +691,14 @@ body {
 }
 
 /* Follow */
-.follow_button {border: 1px solid #189EFC; color: #189EFC;}
-.follow_button i {color: #189EFC}
+.follow_button {border: 1px solid #11C111; color: #11C111;}
+.follow_button i {color: #11C111}
 .follow_button:hover,
-.follow_button:hover i {background-color: #189EFC;color: #fff;}
+.follow_button:hover i {background-color: #11C111;color: #fff;}
 
 /* Following */
 .following_button,
-.following_button i {background-color: #189EFC;color: #fff;}
+.following_button i {background-color: #11C111;color: #fff;}
 .following_button:hover,
 .following_button:hover i {background-color: #E20055;color: #fff;}
 
@@ -743,7 +743,7 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 	padding: 15px;
-	color: #189EFC;
+	color: #11C111;
 	box-sizing: border-box;
 }
 
@@ -850,7 +850,7 @@ body {
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_header .displayname:hover {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_header .right-top_button {
@@ -873,7 +873,7 @@ body {
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_header .expand_button_wrap .expand_button:hover {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_header .expand_button_wrap .expand_menu {
@@ -936,7 +936,7 @@ body {
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_header .expand_button_wrap .expand_menu a:hover {
-	background-color: #189EFC;
+	background-color: #11C111;
 	text-decoration: none;
 	color: #fff;
 }
@@ -957,7 +957,7 @@ body {
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_article a {
- color: #2588D0;
+ color: #19AA1c;
 }
 
 .toot_entry .toot_entry_body .toot_content .toot_article.content_warning .status_content {
@@ -1267,7 +1267,7 @@ body {
 #js-follows_profile .follows_profile_box .follows_profile_header {
 	height: 96px;
 	overflow: hidden;
-	background-color: #189EFC;
+	background-color: #11C111;
 }
 
 #js-follows_profile .follows_profile_box .follows_profile_header img {
@@ -1346,7 +1346,7 @@ body {
 }
 
 #js-follows_profile .follows_profile_box .follows_profile .follows_profile_bio p a {
-	color: #189EFC
+	color: #11C111
 }
 
 #js-follows_profile .follow_button {
@@ -1357,14 +1357,14 @@ body {
 	padding: 6px 18px;
 	margin-top: 4px;
 	border-radius: 4px;
-	border: 1px solid #189EFC;
+	border: 1px solid #11C111;
 	position: absolute;
 	right: 16px;
 	top: -32px;
 }
 
 #js-follows_profile .follow_button i {
-	color: #189EFC;
+	color: #11C111;
 	margin-right: 4px;
 }
 
@@ -1374,7 +1374,7 @@ body {
 
 #js-follows_profile .follow_button:hover,
 #js-follows_profile .follow_button:hover i {
-	background-color: #189EFC;
+	background-color: #11C111;
 	color: #fff!important;
 }
 
@@ -1387,7 +1387,7 @@ body {
 	margin-top: 4px;
 	border-radius: 4px;
 	border: 1px solid #2B94DA;
-	background-color: #189EFC;
+	background-color: #11C111;
 	position: absolute;
 	right: 16px;
 	top: -32px;
@@ -1437,7 +1437,7 @@ body {
 }
 
 #js-stream_update button {
-	color: #189EFC;
+	color: #11C111;
 }
 
 /*--------------------------------------
@@ -1454,7 +1454,7 @@ body {
 .current_profile_box .current_profile_header {
 	height: 96px;
 	overflow: hidden;
-	background-color: #189EFC;
+	background-color: #11C111;
 }
 
 .current_profile_box .current_profile_header img {
@@ -1532,14 +1532,14 @@ body {
 }
 
 .current_profile_box .current_profile .current_profile_counts .current_profile_count a:hover .title {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .current_profile_box .current_profile .current_profile_counts .current_profile_count a .count {
 	font-size: 18px;
 	font-weight: 400;
 	padding-top: 3px;
-	color: #189EFC;
+	color: #11C111;
 }
 
 /*--------------------------------------
@@ -1592,7 +1592,7 @@ body {
 	cursor: pointer;
 	flex-grow: 1;
 	font-size: 12px;
-	color: #189EFC;
+	color: #11C111;
 	text-align: right;
 }
 
@@ -1667,7 +1667,7 @@ body {
 }
 
 .side_widget .account_box .label_box .follow_button i {
-	color: #189EFC;
+	color: #11C111;
 	margin-right: 4px;
 }
 
@@ -1677,7 +1677,7 @@ body {
 
 .side_widget .account_box .label_box .follow_button:hover,
 .side_widget .account_box .label_box .follow_button:hover i {
-	background-color: #189EFC;
+	background-color: #11C111;
 	color: #fff!important;
 }
 
@@ -1690,8 +1690,8 @@ body {
 	padding: 5px 18px;
 	margin-top: 4px;
 	border-radius: 4px;
-	background-color: #189EFC;
-	border: 1px solid #189EFC;
+	background-color: #11C111;
+	border: 1px solid #11C111;
 }
 
 .side_widget .account_box .label_box .following_button:hover {
@@ -1763,7 +1763,7 @@ body {
 #header .header_nav_wrap .header_left_box ul.header_nav_list li.header_nav_item .nav_badge {
 	width: 6px;
 	height: 6px;
-	background-color: #1B95E0;
+	background-color: #1BE01E;
 	border-radius: 50%;
 	position: absolute;
 	left: 6px;
@@ -1772,7 +1772,7 @@ body {
 
 #header .header_nav_wrap .header_left_box ul.header_nav_list li.header_nav_item .nav_badge.notification_badge {
 	position: absolute;
-	background-color: #189EFC;
+	background-color: #11C111;
 	border-radius: 40%;
 	font-size: 10px;
 	top: 8px;
@@ -1800,22 +1800,22 @@ body {
 	padding-left: 9px;
 	/* HACK:  */
 	border-top: 0px solid transparent;
-	border-bottom: 0px solid #189EFC;
+	border-bottom: 0px solid #11C111;
 	transition: 0.15s ease-out;
 }
 
 #header .header_nav_wrap .header_left_box ul.header_nav_list li.header_nav_item a:hover {
-	color: #189EFC;
+	color: #11C111;
 	text-decoration: none;
 	border-top: 5px solid transparent;
-	border-bottom: 5px solid #189EFC;
+	border-bottom: 5px solid #11C111;
 	transition: 0.15s ease-out;
 }
 
 #header .header_nav_wrap .header_left_box ul.header_nav_list li.header_nav_item a.view {
 	text-decoration: none;
 	border-top: 5px solid transparent;
-	border-bottom: 5px solid #189EFC;
+	border-bottom: 5px solid #11C111;
 	transition: 0.15s ease-out;
 	position: relative;
 }
@@ -2024,7 +2024,7 @@ body {
 
 #header .header_nav_wrap .header_right_box .my_account_wrap .header_my_account_nav a:hover,
 #header .header_nav_wrap .header_right_box .my_account_wrap .header_my_account_nav ul li a:hover .display_name {
-	background-color: #189EFC;
+	background-color: #11C111;
 	text-decoration: none;
 	color: #fff;
 }
@@ -2035,13 +2035,13 @@ body {
 	height: 100%;
 	border-radius: 4px;
 	color: #fff;
-	background-color: #2588D0;
+	background-color: #19AA1c;
 	transition: 0.15s ease-out;;
 	padding: 0 6px;
 }
 
 #header .header_nav_wrap .header_right_box .toot_button:hover {
-	background-color: #2571D0;
+	background-color: #139616;
 	transition: 0.15s ease-out;;
 }
 
@@ -2150,24 +2150,24 @@ body {
 	padding: 0 15px;
 	box-sizing: border-box;
 	border-top: 0px solid transparent;
-	border-bottom: 0px solid #189EFC;
+	border-bottom: 0px solid #11C111;
 	transition: 0.15s;
 }
 
 #main .profile_nav_wrap .profile_nav .profile_nav_right .profile_nav_list .profile_nav_item:hover {
-	color: #189EFC;
+	color: #11C111;
 	box-sizing: border-box;
 	text-decoration: none;
 	border-top: 4px solid transparent;
-	border-bottom: 4px solid #189EFC;
+	border-bottom: 4px solid #11C111;
 	transition: 0.15s;
 }
 
 #main .profile_nav_wrap .profile_nav .profile_nav_right .profile_nav_list .profile_nav_item.view {
-	color: #189EFC;
+	color: #11C111;
 	box-sizing: border-box;
 	border-top: 4px solid transparent;
-	border-bottom: 4px solid #189EFC;
+	border-bottom: 4px solid #11C111;
 }
 
 #main .profile_nav_wrap .profile_nav .profile_nav_right .profile_nav_list .profile_nav_item a:hover {
@@ -2213,7 +2213,7 @@ body {
 	padding: 16px 0;
   overflow: hidden;
 	box-sizing: border-box;
-	background-color: #189EFC;
+	background-color: #11C111;
 }
 
 #js-search_title_box h1 {
@@ -2267,7 +2267,7 @@ body {
 #main .search_nav_wrap #js-search_nav_peoples.view a ,
 #main .search_nav_wrap #js-search_nav_toots.view a {
 	border-top: 4px solid transparent;
-	border-bottom: 4px solid #189EFC;
+	border-bottom: 4px solid #11C111;
 }
 
 #main .search_nav_wrap .search_nav .search_nav_left .search_nav_list .search_nav_item a {
@@ -2280,29 +2280,29 @@ body {
 	padding: 0 15px;
 	box-sizing: border-box;
 	border-top: 0px solid transparent;
-	border-bottom: 0px solid #189EFC;
+	border-bottom: 0px solid #11C111;
 	transition: 0.15s;
 }
 
 #main .search_nav_wrap .search_nav .search_nav_left .search_nav_list .search_nav_item a:hover {
-	color: #189EFC;
+	color: #11C111;
 	text-decoration: none;
 	border-top: 4px solid transparent;
-	border-bottom: 4px solid #189EFC;
+	border-bottom: 4px solid #11C111;
 	transition: 0.15s;
 }
 
 #main .search_nav_wrap .search_nav .search_nav_left .search_nav_list .search_nav_item a.view {
-	color: #189EFC;
+	color: #11C111;
 	border-top: 4px solid transparent;
-	border-bottom: 4px solid #189EFC;
+	border-bottom: 4px solid #11C111;
 }
 
 #main .search_nav_wrap .search_nav .search_nav_left .search_nav_list .search_nav_item a h2 {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: normal;
-	color: #189EFC;
+	color: #11C111;
 }
 
 #main .search_nav_wrap .search_nav .search_nav_left .search_nav_list .search_nav_item a span {
@@ -2405,11 +2405,11 @@ body {
 }
 
 #main .article_wrap .left_column .profile_section_wrap > .profile_bio a {
-	color: #2588D0;
+	color: #19AA1c;
 }
 
 #js_profile_recent_images a {
-	color: #2588D0;
+	color: #19AA1c;
 	font-size: 13px;
 	font-weight: 300;
 }
@@ -2630,7 +2630,7 @@ body {
 .toot_entry.descendants_status .toot_entry_body::after {
 	content: "";
 	display: block;
-	border: 2px solid #76BFEC;
+	border: 2px solid #76EC76;
 	position: absolute;
 	border-radius: 2px;
 	position: absolute;
@@ -2647,7 +2647,7 @@ body {
 }
 
 .toot_entry.descendants_status:last-child .toot_entry_body::after {
-	border: 0px solid #76BFEC;
+	border: 0px solid #76EC76;
 }
 
 .toot_detail .toot_header {
@@ -2683,7 +2683,7 @@ body {
 }
 
 .toot_detail .toot_header a:hover .displayname {
-	color: #189EFC;
+	color: #11C111;
 }
 
 /* expand button */
@@ -2702,7 +2702,7 @@ body {
 }
 
 .toot_detail .toot_header .expand_button_wrap .expand_button:hover {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .toot_detail .toot_header .expand_button_wrap .expand_menu {
@@ -2760,7 +2760,7 @@ body {
 }
 
 .toot_detail .toot_header .expand_button_wrap .expand_menu a:hover {
-	background-color: #189EFC;
+	background-color: #11C111;
 	color: #fff;
 }
 
@@ -2797,7 +2797,7 @@ body {
 }
 
 .toot_detail.main_status .toot_content a {
-	color: #189EFC;
+	color: #11C111;
 }
 
 .toot_detail.main_status .toot_content time {
