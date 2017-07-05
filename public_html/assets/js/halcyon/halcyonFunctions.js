@@ -3,7 +3,7 @@
 -----------------------------------*/
 
 function getLinkFromXHRHeader(xhrheaderstring) {
-  const re = xhrheaderstring.match(/Link: <.+api\/v1\/(.+?)>; rel="(.+?)", <.+api\/v1\/(.+?)>; rel="(.+?)"/);
+  const re = xhrheaderstring.match(/link: <.+api\/v1\/(.+?)>; rel="(.+?)", <.+api\/v1\/(.+?)>; rel="(.+?)"/);
   let di = new Object();
   if(re){
     di[re[2]] = re[1];
