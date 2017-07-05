@@ -264,7 +264,7 @@ function mediaattachments_template(status) {
     // VIDEO CONTENT
     media_views += (`
       <div class="media_attachment" otype="video/gifv" mediacount="0">
-        <video src="${status.media_attachments[0].url}" frameborder="0" allowfullscreen autoplay loop></video>
+        <video src="${status.media_attachments[0].url}" frameborder="0" allowfullscreen autoplay loop muted></video>
       </div>
     `);
   } else {
